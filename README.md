@@ -1,2 +1,0 @@
-# johnrburt
-johnrburt.com
