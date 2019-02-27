@@ -1,0 +1,22 @@
+# Ignore everything #
+**
+
+# ...except #
+!index.html
+!assets/
+!pg_about/
+!pg_blog/
+!pg_resume/
+
+# in Assets #
+!assets/**
+*.DS_Store
+
+# in About Me #
+!pg_about/**
+
+# in Blag #
+!pg_blog/**
+
+# in Resume #
+!pg_resume/**
