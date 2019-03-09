@@ -4,13 +4,12 @@
 # ...except #
 !index.html
 !assets/
-!pg_about/
-!pg_blog/
-!pg_resume/
+!about/
+!blog/
+!resume/
 
 # in Assets #
 !assets/**
-*.DS_Store
 
 # in About Me #
 !pg_about/**
@@ -20,3 +19,28 @@
 
 # in Resume #
 !pg_resume/**
+
+
+# ----- BASE GITIGNORE ------------------------------------------------- #
+
+# Compiled Python files
+*.pyc
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that contain credentials or personal info
+.extra
+.ini
+.conf
+.cnf
+.config
+.boto
+.mrjob.conf
+.s3cfg
+.aws/
