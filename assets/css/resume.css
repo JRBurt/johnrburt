@@ -150,6 +150,9 @@ section.resume-section .resume-item .resume-date {
 .surname {
   color: var(--bay-blue) !important;
 }
+.position-title {
+  color: var(--titl-txt) !important;
+}
 .time-period {
   color: var(--tim-perd) !important;
 }

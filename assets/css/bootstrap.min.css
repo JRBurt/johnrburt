@@ -5,33 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- :root {
-  /* Color Definitions */
-  --black---: #000000;
-  --bay-nite: #343a40;
-  --bay-blue: #516183;
-  --bay-dusk: #74819c;
-  --bay-gray: #8f949e;
-  --bay-orng: #e38760;
-  --bay-pech: #efb988;
-  
-  /* General Color Formatting */
-  --titl-txt: var(--bay-nite);
-  --headers-: var(--bay-nite);
-
-  --soft-txt: var(--bay-blue);
-  --backgrnd: var(--bay-blue);
-  --icons---: var(--bay-blue);
-  --tim-perd: var(--bay-blue);
-
-  --primtext: var(--bay-gray);
-
-  --surntext: var(--bay-blue);
-  --link-txt: var(--bay-blue);
-
-  --link-hov: var(--bay-dusk);
-}
-
 dl,
 h1,
 h2,
@@ -6122,9 +6095,6 @@ button.bg-dark:hover {
 .mr-3,
 .mx-3 {
   margin-right: 1rem !important;
-}
-.position-title {
-  color: var(--titl-txt) !important;
 }
 .mb-3,
 .my-3 {
