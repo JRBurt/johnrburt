@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
+@import url(color-pallet.css);
 @import url(
 https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i
 );
@@ -7,37 +8,16 @@ https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,40
 https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i
 );
 
-:root {
-    /* Color Definitions */
-    --black---: #000000;
-    --bay-nite: #343a40;
-    --bay-blue: #516183;
-    --bay-dusk: #74819c;
-    --bay-gray: #8f949e;
-    --bay-orng: #e38760;
-    --bay-pech: #efb988;
-
-    /* General Color Formatting */
-    --titl-txt: var(--bay-nite);
-    --headers-: var(--bay-nite);
-
-    --soft-txt: var(--bay-blue);
-    --backgrnd: var(--bay-blue);
-    --icons---: var(--bay-blue);
-    --tim-perd: var(--bay-blue);
-
-    --primtext: var(--bay-gray);
-
-    --surntext: var(--bay-blue);
-    --link-txt: var(--bay-blue);
-
-    --link-hov: var(--bay-dusk);
-}
 
 body {
     font-family: "Open Sans", serif;
     padding-top: 54px;
     color: var(--primtext);
+    background-image: url(../../assets/img/overlay.png), url(../../assets/img/longs_peak.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left, center center, bottom center;
+    background-attachment: fixed, fixed, fixed;
 }
 
 .subheading,
@@ -127,6 +107,10 @@ ul.icons li a:before {
     }
 }
 
+.container, .container-fluid {
+    background: rgb(255, 255, 255);
+}
+
 .icon,
 ul.icons li a {
     position: relative;
@@ -166,7 +150,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: var(--backgrnd) !important;
+    background: rgb(0, 0, 0, 0);
 }
 
 .text-primary {
@@ -174,7 +158,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .surname {
-    color: var(--bay-blue) !important;
+    color: var(--surntext) !important;
 }
 
 .time-period {
