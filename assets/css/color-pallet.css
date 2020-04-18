@@ -7,7 +7,6 @@
     --mtn-orng: #bf6b52;
     --mtn-rose: #c54e37;
     --mtn-rust: #765f5a;
-    --mtn-gray: #625f6e;
     --mtn-blue: #516183;
     --mtn-dusk: #6c5990;
     --mtn-slte: #585368;
@@ -19,7 +18,7 @@
     --soft-txt: var(--mtn-blue);
     --backgrnd: var(--mtn-blue);
     --icons---: var(--mtn-blue);
-    --tim-perd: var(--mtn-gray);
+    --tim-perd: var(--mtn-slte);
 
     --surntext: var(--mtn-dusk);
     --primtext: var(--mtn-nite);
