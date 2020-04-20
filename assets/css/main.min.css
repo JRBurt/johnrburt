@@ -290,24 +290,28 @@ h5,
 h6 {
     color: #313f47;
     line-height: 1.5;
-    margin: 0 0 0.75em;
+    margin: 0 0 1.75em;
 }
 
 h1 {
     font-size: 1.85em;
     letter-spacing: 0.22em;
-    margin: 0 0 0.525em;
+    margin: 0 0 0.25em;
 }
 
 h2 {
-    font-size: 1.25em;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.3);
+    margin: 0 0 0.28em;
+    letter-spacing: 0.22em;
 }
 
 h3,
 h4,
 h5,
 h6 {
-    font-size: 1em;
+    font-size: 1.0em;
+    color: rgb(0, 0, 0, .35);
 }
 
 @media screen and (max-width: 480px) {
