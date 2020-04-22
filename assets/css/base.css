@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import "font-awesome.min.css";
+@import "bootstrap.min.css";
+
+:root {
+    /* Color Definitions */
+    --black---: #000000;
+    --mtn-nite: #343a40;
+    --mtn-pech: #efb988;
+    --mtn-orng: #bf6b52;
+    --mtn-rose: #c54e37;
+    --mtn-rust: #765f5a;
+    --mtn-blue: #516183;
+    --mtn-dusk: #6c5990;
+    --mtn-slte: #585368;
+
+    /* General Color Formatting */
+    --titl-txt: var(--mtn-nite);
+    --headers-: var(--mtn-nite);
+
+    --soft-txt: var(--mtn-blue);
+    --backgrnd: var(--mtn-blue);
+    --icons---: var(--mtn-blue);
+    --tim-perd: var(--mtn-slte);
+
+    --surntext: var(--mtn-dusk);
+    --primtext: var(--mtn-nite);
+
+    --link-txt: var(--mtn-slte);
+    --link-hov: var(--mtn-dusk);
+}
