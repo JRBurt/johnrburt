@@ -3,22 +3,10 @@
 
 # ...except #
 !index.html
-!assets/
-!about/
-!blog/
-!resume/
-!PULL_REQUEST_TEMPLATE/
-
-# in Assets #
-!assets/**
-
-# in About Me #
 !about/**
-
-# in Blag #
+!assets/**
 !blog/**
-
-# in Resume #
+!docs/**
 !resume/**
 
 
