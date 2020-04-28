@@ -7,18 +7,19 @@
 !about/
 !blog/
 !resume/
+!PULL_REQUEST_TEMPLATE/
 
 # in Assets #
 !assets/**
 
 # in About Me #
-!pg_about/**
+!about/**
 
 # in Blag #
-!pg_blog/**
+!blog/**
 
 # in Resume #
-!pg_resume/**
+!resume/**
 
 
 # ----- BASE GITIGNORE ------------------------------------------------- #
