@@ -3,22 +3,11 @@
 
 # ...except #
 !index.html
-!assets/
-!about/
-!blog/
-!resume/
-
-# in Assets #
+!about/**
 !assets/**
-
-# in About Me #
-!pg_about/**
-
-# in Blag #
-!pg_blog/**
-
-# in Resume #
-!pg_resume/**
+!blog/**
+!docs/**
+!resume/**
 
 
 # ----- BASE GITIGNORE ------------------------------------------------- #
