@@ -2,12 +2,17 @@
 **
 
 # ...except #
-!index.html
-!about/**
-!assets/**
-!blog/**
+
+!README.md
+!site
+!site/index.html
+!site/about/**
+!site/assets/**
+!site/blog/**
 !docs/**
-!resume/**
+!site/**
+!site/resume/**
+
 
 
 # ----- BASE GITIGNORE ------------------------------------------------- #
